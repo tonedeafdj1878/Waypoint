@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Report Successful</title>
+</head>
+<body>
+    <h1>Trail Report Submitted Successfully!</h1>
+    <p>Here is what you submitted:</p>
+    <ul>
+        <li><strong>Trail Name:</strong> {{ data.trail_name }}</li>
+        <li><strong>Distance:</strong> {{ data.distance_km }} km</li>
+        <li><strong>Elevation Gain:</strong> {{ data.elevation_gain_m }} m</li>
+        <li><strong>Difficulty:</strong> {{ data.difficulty }}</li>
+        <li><strong>Notes:</strong> {{ data.notes }}</li>
+    </ul>
+    <a href="{% url 'report_trail' %}">Submit Another</a> | 
+    <a href="{% url 'home' %}">Home</a>
+</body>
+</html>
