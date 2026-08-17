@@ -7,6 +7,26 @@
 <body>
     <h1>Welcome to Waypoint</h1>
     <p>Your ultimate hiking and trail management companion.</p>
+    
     <a href="{% url 'report_trail' %}">Report a Trail</a>
+
+    <h2>Reported Trails</h2>
+    {% if trails %}
+        <ul>
+            {% for trail in trails %}
+                <li>
+                    <strong>{{ trail.name }}</strong> - 
+                    {{ trail.distance_km }} km, 
+                    {{ trail.elevation_gain_m }}m gain 
+                    ({{ trail.difficulty }})
+                    {% if trail.notes %}
+                        <br><em>Notes:</em> {{ trail.notes }}
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No trails reported yet. Be the first to add one!</p>
+    {% endif %}
 </body>
 </html>
