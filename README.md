@@ -26,7 +26,7 @@
 
 ## 📦 Getting Started Locally
 
-### 1. Clone the Repository
+1. Clone the Repository
 
 git clone [https://github.com/tonedeafdj1878/Waypoint.git](https://github.com/tonedeafdj1878/Waypoint.git)
 cd Waypoint
