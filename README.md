@@ -2,6 +2,7 @@
 Bash
 
 git clone https://github.com/tonedeafdj1878/Waypoint.git
+
 cd Waypoint
 
 2. Create and Activate a Virtual Environment
