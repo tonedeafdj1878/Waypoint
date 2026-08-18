@@ -1,18 +1,15 @@
 # Waypoint 🏔️
 
-> Your ultimate hiking and trail management companion.
-
-[![Django](https://img.shields.io/badge/Django-5.x-green.svg)](https://www.djangoproject.com/)
-[![Python](https://img.shields.io/badge/Python-3.14-blue.svg)](https://www.python.org/)
+Waypoint is a web application built with **Django** designed for hikers and outdoor enthusiasts to track, manage, and share trail reports.
 
 ---
 
-## 🚀 Features
+## Features
 
-- **Trail Reporting & Management:** Submit detailed reports for new trails, including distance, elevation gain, difficulty levels, and personal notes.
-- **Dynamic Home Dashboard:** View an up-to-date list of all reported trails pulled directly from the database.
-- **Django Admin Integration:** Fully configured administrative backend for managing users, permissions, and trail records securely.
-- **Automated Test Suite:** Comprehensive unit tests covering model constraints, URL routing, and HTTP request handling.
+- **Trail Management:** Submit and view detailed hiking reports including distance, elevation gain, difficulty levels, and personal notes.
+- **Responsive Styling:** Integrated CSS static files for a clean, user-friendly interface across home, report, and success views.
+- **Django Admin Integration:** Fully managed data administration via the built-in Django admin panel.
+- **Robust Testing:** Includes automated unit tests and object-oriented validation scripts.
 
 ---
 
@@ -58,9 +55,8 @@ Running Tests
 To execute the automated unit test suite:
 
 python manage.py test
-"# Week 7" 
+"# Week 7"
 
 "# Week 11"  
 "# Week 12"  
-"# Week 13"  
-"# Week 14"  
+"# Week 13"
