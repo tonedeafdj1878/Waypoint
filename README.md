@@ -59,3 +59,4 @@ To execute the automated unit test suite:
 
 python manage.py test
 "# Week 7" 
+"# Week 10"  
