@@ -42,3 +42,38 @@ Waypoint/
 ├── test_hierarchy.py
 └── README.md
 ```
+
+
+Getting Started
+
+    Clone the Repository
+    git clone 
+    cd Waypoint
+
+    Set Up a Virtual Environment
+    python -m venv env
+
+On Windows:
+
+env\Scripts\activate
+On macOS/Linux:
+
+source env/bin/activate
+
+    Install Dependencies
+    pip install django
+
+    Run Migrations
+    python manage.py makemigrations
+    python manage.py migrate
+
+    Create a Superuser (for Admin Access)
+    python manage.py createsuperuser
+
+    Run the Development Server
+    python manage.py runserver
+    Open your browser and navigate to http://127.0.0.1:8000/.
+
+Running Tests
+To execute the test suite and verification scripts:
+python manage.py test
