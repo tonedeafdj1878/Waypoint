@@ -32,6 +32,7 @@ git clone [https://github.com/tonedeafdj1878/Waypoint.git](https://github.com/to
 cd Waypoint
 
 2. Create and Activate a Virtual Environment
+
    python -m venv env
 
 3. Install Dependencies
@@ -41,6 +42,7 @@ pip install -r requirements.txt
 4. Run Database Migrations
 
 python manage.py makemigrations
+
 python manage.py migrate
 
 5. Create a Superuser (Optional for Admin Access)
