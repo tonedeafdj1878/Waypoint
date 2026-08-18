@@ -58,3 +58,4 @@ Running Tests
 To execute the automated unit test suite:
 
 python manage.py test
+"# Week 7" 
